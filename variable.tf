@@ -1,7 +1,7 @@
 variable lambda_function_name {
     description     = "Name of lambda function"
     type            = string
-    default         = "luqman-tf-lambda-fn"
+    default         = "khai-tf-lambda-fn"
 }
 
 variable lambda_file_name {
@@ -25,5 +25,5 @@ variable "sg_id" {
 variable "sns_name" {
     description = "The name of the SNS topic"
     type        = string
-    default     = "luqman-successful-sns-topic"
+    default     = "khai-successful-sns-topic"
 }
